@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1085610861927862335",
+        "applicationId": "1085594094794985675",
+        "guild": null,
+        "guildId": null,
+        "permissions": {
+            "manager": "1085610861927862335",
+            "guild": null,
+            "guildId": null,
+            "commandId": "1085610861927862335"
+        },
+        "type": "CHAT_INPUT",
+        "name": "work",
+        "nameLocalizations": null,
+        "nameLocalized": null,
+        "description": "Earn Money with the Work Command every 3 hours",
+        "descriptionLocalizations": null,
+        "descriptionLocalized": null,
+        "options": [],
+        "defaultMemberPermissions": null,
+        "dmPermission": true,
+        "version": "1085610861927862336"
+    },
+    {
+        "id": "1085610930844483584",
+        "applicationId": "1085594094794985675",
+        "guild": null,
+        "guildId": null,
+        "permissions": {
+            "manager": "1085610930844483584",
+            "guild": null,
+            "guildId": null,
+            "commandId": "1085610930844483584"
+        },
+        "type": "CHAT_INPUT",
+        "name": "kiss",
+        "nameLocalizations": null,
+        "nameLocalized": null,
+        "description": "Kiss a Fellow Member!",
+        "descriptionLocalizations": null,
+        "descriptionLocalized": null,
+        "options": [
+            {
+                "type": "USER",
+                "name": "user",
+                "description": "What user would you like to kiss",
+                "required": true
+            }
+        ],
+        "defaultMemberPermissions": null,
+        "dmPermission": true,
+        "version": "1085610930844483585"
+    },
+    {
+        "id": "1085610975526400011",
+        "applicationId": "1085594094794985675",
+        "guild": null,
+        "guildId": null,
+        "permissions": {
+            "manager": "1085610975526400011",
+            "guild": null,
+            "guildId": null,
+            "commandId": "1085610975526400011"
+        },
+        "type": "CHAT_INPUT",
+        "name": "coinflip",
+        "nameLocalizations": null,
+        "nameLocalized": null,
+        "description": "Flip a coin to solve an argument!",
+        "descriptionLocalizations": null,
+        "descriptionLocalized": null,
+        "options": [],
+        "defaultMemberPermissions": null,
+        "dmPermission": true,
+        "version": "1085610975526400012"
+    },
+    {
+        "id": "1085611012763439214",
+        "applicationId": "1085594094794985675",
+        "guild": null,
+        "guildId": null,
+        "permissions": {
+            "manager": "1085611012763439214",
+            "guild": null,
+            "guildId": null,
+            "commandId": "1085611012763439214"
+        },
+        "type": "CHAT_INPUT",
+        "name": "bite",
+        "nameLocalizations": null,
+        "nameLocalized": null,
+        "description": "Bite a Fellow Member!",
+        "descriptionLocalizations": null,
+        "descriptionLocalized": null,
+        "options": [
+            {
+                "type": "USER",
+                "name": "user",
+                "description": "What user would you like to bite",
+                "required": true
+            }
+        ],
+        "defaultMemberPermissions": null,
+        "dmPermission": true,
+        "version": "1085611012763439215"
+    },
+    {
+        "id": "1085611061580939396",
+        "applicationId": "1085594094794985675",
+        "guild": null,
+        "guildId": null,
+        "permissions": {
+            "manager": "1085611061580939396",
+            "guild": null,
+            "guildId": null,
+            "commandId": "1085611061580939396"
+        },
+        "type": "CHAT_INPUT",
+        "name": "cuddle",
+        "nameLocalizations": null,
+        "nameLocalized": null,
+        "description": "Cuddle a Fellow Member!",
+        "descriptionLocalizations": null,
+        "descriptionLocalized": null,
+        "options": [
+            {
+                "type": "USER",
+                "name": "user",
+                "description": "What user would you like to cuddle",
+                "required": true
+            }
+        ],
+        "defaultMemberPermissions": null,
+        "dmPermission": true,
+        "version": "1085611061580939397"
+    },
+    {
+        "id": "1085611200420790373",
+        "applicationId": "1085594094794985675",
+        "guild": null,
+        "guildId": null,
+        "permissions": {
+            "manager": "1085611200420790373",
+            "guild": null,
+            "guildId": null,
+            "commandId": "1085611200420790373"
+        },
+        "type": "CHAT_INPUT",
+        "name": "hug",
+        "nameLocalizations": null,
+        "nameLocalized": null,
+        "description": "Hug a Fellow Member!",
+        "descriptionLocalizations": null,
+        "descriptionLocalized": null,
+        "options": [
+            {
+                "type": "USER",
+                "name": "user",
+                "description": "What user would you like to hug",
+                "required": true
+            }
+        ],
+        "defaultMemberPermissions": null,
+        "dmPermission": true,
+        "version": "1085611200420790374"
+    },
+    {
+        "id": "1085611232414924933",
+        "applicationId": "1085594094794985675",
+        "guild": null,
+        "guildId": null,
+        "permissions": {
+            "manager": "1085611232414924933",
+            "guild": null,
+            "guildId": null,
+            "commandId": "1085611232414924933"
+        },
+        "type": "CHAT_INPUT",
+        "name": "pat",
+        "nameLocalizations": null,
+        "nameLocalized": null,
+        "description": "Pat a Fellow Member!",
+        "descriptionLocalizations": null,
+        "descriptionLocalized": null,
+        "options": [
+            {
+                "type": "USER",
+                "name": "user",
+                "description": "What user would you like to pat",
+                "required": true
+            }
+        ],
+        "defaultMemberPermissions": null,
+        "dmPermission": true,
+        "version": "1085611232414924934"
+    },
+    {
+        "id": "1085611262819442709",
+        "applicationId": "1085594094794985675",
+        "guild": null,
+        "guildId": null,
+        "permissions": {
+            "manager": "1085611262819442709",
+            "guild": null,
+            "guildId": null,
+            "commandId": "1085611262819442709"
+        },
+        "type": "CHAT_INPUT",
+        "name": "meme",
+        "nameLocalizations": null,
+        "nameLocalized": null,
+        "description": "Generates a meme from reddit",
+        "descriptionLocalizations": null,
+        "descriptionLocalized": null,
+        "options": [],
+        "defaultMemberPermissions": null,
+        "dmPermission": true,
+        "version": "1085611262819442710"
+    },
+    {
+        "id": "1085611829272789094",
+        "applicationId": "1085594094794985675",
+        "guild": null,
+        "guildId": null,
+        "permissions": {
+            "manager": "1085611829272789094",
+            "guild": null,
+            "guildId": null,
+            "commandId": "1085611829272789094"
+        },
+        "type": "CHAT_INPUT",
+        "name": "ping",
+        "nameLocalizations": null,
+        "nameLocalized": null,
+        "description": "Pong!",
+        "descriptionLocalizations": null,
+        "descriptionLocalized": null,
+        "options": [],
+        "defaultMemberPermissions": null,
+        "dmPermission": true,
+        "version": "1181351241297694902"
+    },
+    {
+        "id": "1176934072463933571",
+        "applicationId": "1085594094794985675",
+        "guild": null,
+        "guildId": null,
+        "permissions": {
+            "manager": "1176934072463933571",
+            "guild": null,
+            "guildId": null,
+            "commandId": "1176934072463933571"
+        },
+        "type": "CHAT_INPUT",
+        "name": "play",
+        "nameLocalizations": null,
+        "nameLocalized": null,
+        "description": "Play your Favourite music in VC",
+        "descriptionLocalizations": null,
+        "descriptionLocalized": null,
+        "options": [
+            {
+                "type": "STRING",
+                "name": "song",
+                "description": "The Name of the song you want to play",
+                "required": true
+            }
+        ],
+        "defaultMemberPermissions": null,
+        "dmPermission": true,
+        "version": "1176934072463933572"
+    },
+    {
+        "id": "1181351235312435261",
+        "applicationId": "1085594094794985675",
+        "guild": null,
+        "guildId": null,
+        "permissions": {
+            "manager": "1181351235312435261",
+            "guild": null,
+            "guildId": null,
+            "commandId": "1181351235312435261"
+        },
+        "type": "CHAT_INPUT",
+        "name": "imagine",
+        "nameLocalizations": null,
+        "nameLocalized": null,
+        "description": "Generate an image using a prompt.",
+        "descriptionLocalizations": null,
+        "descriptionLocalized": null,
+        "options": [
+            {
+                "type": "STRING",
+                "name": "prompt",
+                "description": "Enter your prompt",
+                "required": true
+            },
+            {
+                "type": "STRING",
+                "name": "model",
+                "description": "The image model",
+                "required": false,
+                "choices": [
+                    {
+                        "name": "Stable Diffusion (Default)",
+                        "value": "stability-ai/stable-diffusion:27b93a2413e7f36cd83da926f3656280b2931564ff050bf9575f1fdf9bcd7478"
+                    },
+                    {
+                        "name": "Openjourney (Midjourney style)",
+                        "value": "prompthero/openjourney:9936c2001faa2194a261c01381f90e65261879985476014a0a37a334593a05eb"
+                    },
+                    {
+                        "name": "Erlich",
+                        "value": "laion-ai/erlich:92fa143ccefeed01534d5d6648bd47796ef06847a6bc55c0e5c5b6975f2dcdfb"
+                    },
+                    {
+                        "name": "Mini DALL-E",
+                        "value": "kuprel/min-dalle:2af375da21c5b824a84e1c459f45b69a117ec8649c2aa974112d7cf1840fc0ce"
+                    },
+                    {
+                        "name": "Waifu Diffusion",
+                        "value": "cjwbw/waifu-diffusion:25d2f75ecda0c0bed34c806b7b70319a53a1bccad3ade1a7496524f013f48983"
+                    }
+                ]
+            }
+        ],
+        "defaultMemberPermissions": null,
+        "dmPermission": true,
+        "version": "1181351235312435262"
+    },
+    {
+        "id": "1181386840184455194",
+        "applicationId": "1085594094794985675",
+        "guild": null,
+        "guildId": null,
+        "permissions": {
+            "manager": "1181386840184455194",
+            "guild": null,
+            "guildId": null,
+            "commandId": "1181386840184455194"
+        },
+        "type": "CHAT_INPUT",
+        "name": "ask",
+        "nameLocalizations": null,
+        "nameLocalized": null,
+        "description": "Ask OpenAI GPT 3.5 Turbo",
+        "descriptionLocalizations": null,
+        "descriptionLocalized": null,
+        "options": [
+            {
+                "type": "STRING",
+                "name": "prompt",
+                "description": "What do you want to send to OpenAI?",
+                "required": true
+            }
+        ],
+        "defaultMemberPermissions": null,
+        "dmPermission": true,
+        "version": "1181386840184455195"
+    }
+]
