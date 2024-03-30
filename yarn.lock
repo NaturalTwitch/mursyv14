@@ -1471,12 +1471,12 @@
   "resolved" "https://registry.npmjs.org/atob/-/atob-2.1.2.tgz"
   "version" "2.1.2"
 
-"axios@^1.4.0":
-  "integrity" "sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA=="
-  "resolved" "https://registry.npmjs.org/axios/-/axios-1.4.0.tgz"
-  "version" "1.4.0"
+"axios@^1.4.0", "axios@^1.6.7":
+  "integrity" "sha512-/hDJGff6/c7u0hDkvkGxR/oy6CbCs8ziCsC7SqmhjfozqiJGc8Z11wrv9z9lYfY4K8l+H9TpjcMDX0xOZmx+RA=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-1.6.7.tgz"
+  "version" "1.6.7"
   dependencies:
-    "follow-redirects" "^1.15.0"
+    "follow-redirects" "^1.15.4"
     "form-data" "^4.0.0"
     "proxy-from-env" "^1.1.0"
 
@@ -2423,10 +2423,10 @@
   "resolved" "https://registry.npmjs.org/fn.name/-/fn.name-1.1.0.tgz"
   "version" "1.1.0"
 
-"follow-redirects@^1.15.0":
-  "integrity" "sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA=="
-  "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz"
-  "version" "1.15.2"
+"follow-redirects@^1.15.4":
+  "integrity" "sha512-vSFWUON1B+yAw1VN4xMfxgn5fTUiaOzAJCKBwIIgT/+7CuGy9+r+5gITvP62j3RmaD5Ph65UaERdOSRGUzZtgw=="
+  "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.5.tgz"
+  "version" "1.15.5"
 
 "form-data-encoder@^2.1.2":
   "integrity" "sha512-yDYSgNMraqvnxiEXO4hi88+YZxaHC6QKzb5N84iRCTDeRO7ZALpir/lVmf/uXUhnwUr2O4HU8s/n6x+yNjQkHw=="
@@ -3545,6 +3545,13 @@
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
 
+"random-memes@^3.2.6":
+  "integrity" "sha512-rsI0u2qYRCEEcWsvWFZci+I+zmAtBDwTcFNVqQuhTQdu1EXuIO1XMFmgvsu7Lh3TfQ6RdvsXTaLtqdyv03lJig=="
+  "resolved" "https://registry.npmjs.org/random-memes/-/random-memes-3.2.6.tgz"
+  "version" "3.2.6"
+  dependencies:
+    "axios" "^1.6.7"
+
 "random-puppy@^1.1.0":
   "integrity" "sha512-IK0ev5l+3cy8iZGO/sx5j0lP+TUBMVlidh7d7RGgCttD+qOO+frTYpQ0yr37A4inSDTwvE1QwdmgvpQ1tjIgFQ=="
   "resolved" "https://registry.npmjs.org/random-puppy/-/random-puppy-1.1.0.tgz"
@@ -4351,7 +4358,7 @@
   dependencies:
     "undici" "^5.26.3"
 
-"youtube-sr@^4.3.9":
+"youtube-sr@^4.3.10", "youtube-sr@^4.3.9":
   "integrity" "sha512-YTpIWy2c1XLN4VpsUuZTDNXpJ2sLZQyG0kX1vq3nymHhDKro2SoeODey3pZazW+6AjfmNxoSnI8pCSzPrEa3jw=="
   "resolved" "https://registry.npmjs.org/youtube-sr/-/youtube-sr-4.3.10.tgz"
   "version" "4.3.10"
