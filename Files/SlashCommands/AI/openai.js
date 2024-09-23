@@ -6,6 +6,9 @@ module.exports = {
     description: 'Open AI response',
     async execute(cmd) {
 
+        cmd.reply('Imagine Command is currently disabled by bot owner')
+        return;
+
         const openai = new OpenAI({
             apiKey: process.env.OPENAI_TOKEN
         })

@@ -16,7 +16,7 @@ module.exports = {
 
     await Promise.all(
       rowsToUse.map((row) => message.client.users.fetch(row.user_id).catch(() => {
-
+        
       }))
     );
 

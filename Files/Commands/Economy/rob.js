@@ -51,9 +51,6 @@ module.exports = {
     }
 
 
-
-
-
     let amountRobbed = Math.floor((Math.random() * Number(otherBalance)))
 
     message.channel.send(`<@${message.author.id}> you have successfully stole <:MursyCoin:970535071528394807>${amountRobbed} from **${user.username}**!`)

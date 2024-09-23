@@ -22,7 +22,8 @@ const client = new Discord.Client(
       Discord.GatewayIntentBits.GuildMembers,
       Discord.GatewayIntentBits.GuildVoiceStates
     ],
-    partials: ["MESSAGE", "CHANNEL", "REACTION", "CHANNEL", "USER", "MEMBER"]
+    partials: ["MESSAGE", "CHANNEL", "REACTION", "CHANNEL", "USER", "MEMBER"],
+    // rest: { api: "http://38.64.239.106:5982/api" }
   }
 );
 const { AutoPoster } = require('topgg-autoposter')
@@ -137,17 +138,17 @@ client.prefix = process.env.PREFIX;
 
 setInterval(() => {
   const activities_list = [
-    { type: 'LISTENING', message: `${client.guilds.cache.size} Servers | Prefix ${client.prefix}` },
-    { type: 'LISTENING', message: `${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} Users | Prefix ${client.prefix}` },
-    { type: 'LISTENING', message: `${client.guilds.cache.size} Servers | ${client.prefix}help` },
-    { type: 'LISTENING', message: `${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} Users | ${client.prefix}help` },
+    { type: Discord.ActivityType.Listening, message: `${client.guilds.cache.size} Servers | Prefix ${client.prefix}` },
+    { type: Discord.ActivityType.Listening, message: `${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} Users | Prefix ${client.prefix}` },
+    { type: Discord.ActivityType.Listening, message: `${client.guilds.cache.size} Servers | ${client.prefix}help` },
+    { type: Discord.ActivityType.Listening, message: `${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} Users | ${client.prefix}help` },
   ];
 
   const index = Math.floor(Math.random() * (activities_list.length - 1) + 1);
 
 
   client.user.setActivity(activities_list[index].message, { type: activities_list[index].type });
-}, 30000);
+}, 5000);
 
 
 //Top.gg Stats

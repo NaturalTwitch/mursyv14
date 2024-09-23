@@ -5,7 +5,7 @@ module.exports = {
   execute(client, message, cmd, args, Discord){
     
     const pingEmbed = new EmbedBuilder()
-      .setColor('RANDOM')
+      .setColor(randomColor)
       .setTitle('Pong!')
       .setDescription(`🏓 **${Math.round(client.ws.ping)}ms.**`)
     message.channel.send({ embeds: [pingEmbed] });

@@ -1,7 +1,7 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { useMainPlayer } = require('discord-player');
 const { QueryType } = require('discord-player');
-const errorLog = require('/root/discord/mursy/Files/Modules/errorlog.js');
+const errorLog = require('../../Modules/errorlog.js');
 
 module.exports = {
     name: 'play',

@@ -55,8 +55,9 @@ module.exports = async (client, message, cmd, args, Discord) => {
           }  if (data.xp > 3500) {
             message.member.roles.add(cauldron)
           }
-        }``
+        }
 
+        //Mursy's Server
         if (message.guild.id === '882449110806982667') {
           if (data.xp > 300) {
             const verifiedRole = message.guild.roles.cache.find((role) => {

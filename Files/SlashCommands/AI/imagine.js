@@ -17,6 +17,9 @@ module.exports = {
     name: 'imagine',
     description: 'ai generated photos',
     async execute(cmd) {
+        
+        cmd.reply('Imagine Command is currently disabled by bot owner')
+        return;
 
         let prompt = cmd.options.getString('prompt')
 

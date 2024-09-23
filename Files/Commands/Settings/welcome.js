@@ -27,7 +27,7 @@ if(args[0] === 'disable' || args[0] === 'Disable'){
 
     let checkChannel = message.mentions.channels.first().id;
     let channels = message.mentions.channels;
-    let channel = channels.filter((c) => c.isText()).first()
+    let channel = channels.filter((c) => c.isTextBased()).first()
 
 
       client.db.query(`insert into welcome (guild_id, channel_id, guild_name) values ($1, $2, $3) on conflict (guild_id) do update set channel_id = $2`, [message.guild.id, checkChannel, message.guild.name])

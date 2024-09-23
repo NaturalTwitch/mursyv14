@@ -12,12 +12,19 @@ const errorLog = require('./Files/Modules/errorlog.js');
 const { Player } = require('discord-player');
 const { ExtractorModel } = require('@discord-player/extractor');
 
+const { YoutubeiExtractor } = require("discord-player-youtubei")
+
+
+
 client.config = require('./config');
 client.player = new Player(client, {
   ...client.config.opt.discordPlayer,
   extractorModel: ExtractorModel,
 });
 const player = client.player;
+player.extractors.register(YoutubeiExtractor, {
+  authentication: process.env.YOUTUBE_TOKEN
+})
 client.player.extractors.loadDefault();
 
 player.events.on('error', (queue, error) => {

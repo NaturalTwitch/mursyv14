@@ -1,5 +1,6 @@
 const { EmbedBuilder } = require('discord.js');
 const canvacord = require('canvacord');
+const fetch = require('node-fetch');
 
 module.exports = {
   name: 'rank',
@@ -12,6 +13,8 @@ module.exports = {
       return message.reply(`<@${message.author.id}>, Bots can't have ranks`);
     }
 
+
+
     const data = await getData(message, client);
     const custom = await getPersonalization(message, client);
 
@@ -20,10 +23,19 @@ module.exports = {
     let levelcolor = custom?.levelcolor || 'EED327';
     const bannerLink = custom?.banner || '';
 
+    async function checkImage(url) {
+      const response = await fetch(url);
+      if (response.status === 523 || response.status === 522) {
+         return false; // Image URL is not accessible
+      }
+      return true; // Image URL is accessible
+     }
+
+
     console.log(back1, back2, levelcolor, bannerLink)
 
     try {
-      if (bannerLink) {
+      if (bannerLink && !checkImage(`https://cdn.mursybot.com/users/${user.id}/banners/${bannerLink}.png`)) {
         const rank = new canvacord.Rank()
           .setAvatar(user.displayAvatarURL({ dynamic: false, format: 'png' }))
           .setCurrentXP(Number(data.xp))

@@ -9,6 +9,9 @@ module.exports = {
     aliases: ['photogen'],
     description: 'AI image gen',
     async execute(client, message, cmd, args, Discord) {
+        message.reply('Imagine Command is current disabled by bot owner')
+        return;
+
         try {
             const replicate = new Replicate({
                 auth: process.env.REPLICATE_TOKEN,

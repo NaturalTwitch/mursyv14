@@ -12,7 +12,7 @@ module.exports = {
         const timeMs = ms(time);
 
         const reminderEmbed = new Discord.EmbedBuilder()
-            .setColor('RANDOM')
+            .setColor('#FFFFFF')
             .setTitle('Reminder')
             .setDescription(`I will remind you in ${time}!`);
 
@@ -21,7 +21,7 @@ module.exports = {
 
         setTimeout(() => {
             const reminderSuccessEmbed = new Discord.EmbedBuilder()
-                .setColor('RANDOM')
+                .setColor('#FFFFFF')
                 .setTitle('Reminder')
                 .setDescription(`You asked me to remind you ${time} ago!`)
                 .addFields({ name: 'Reminder:', value: reminder });

@@ -32,6 +32,12 @@ module.exports = {
       message.channel.send(`<@${message.author.id}>`)
     }
 
+    // const ABKID = "1269421507067514972"
+
+    // if (message.guild.id === ABKID) {
+    //   console.log(`${message.author.username} < ${message.channel.id} > ${message.content}`)
+    // }
+
     const userBlacklistTrue = await userBlacklist(message);
 
     if (message.author.id === userBlacklistTrue) return;
@@ -52,6 +58,7 @@ module.exports = {
     this.messageHandler(message, client);
   },
   async commandHandler(message, client) {
+    
     const customPrefix = await getCustomPrefix(message, client);
     const { prefix } = client;
     if (customPrefix) {
@@ -291,7 +298,7 @@ const DMhandler = async (message, args) => {
           iconURL: `${message.author.avatarURL()}`,
         })
         .addFields({ name: "__New Message__", value: `${message.content}` })
-        .setFooter(`${message.author.id}`)
+        .setFooter({ text: `${message.author.id}` })
         .setTimestamp();
 
       message.client.users.cache

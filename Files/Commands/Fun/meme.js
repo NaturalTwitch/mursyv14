@@ -19,12 +19,12 @@ module.exports = {
                 const memeUpvotes = post.data.ups;
                 const memeNumComments = post.data.num_comments;
 
-                const embed = new Discord.MessageEmbed()
+                const embed = new Discord.EmbedBuilder()
                     .setTitle(memeTitle)
                     .setURL(memeUrl)
-                    .setColor('RANDOM')
+                    .setColor(randomColor)
                     .setImage(memeImage)
-                    .setFooter(`👍 ${memeUpvotes} 💬 ${memeNumComments}`);
+                    .setFooter({text: `👍 ${memeUpvotes} 💬 ${memeNumComments}` });
 
                 message.channel.send({ embeds: [embed] });
             })
