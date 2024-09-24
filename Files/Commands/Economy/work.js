@@ -118,7 +118,7 @@ module.exports = {
 
     let chance = Math.floor(Math.random() * 25 + 1);
 
-    let randomItem = ["LuckyCoin", "SpeedPotion"];
+    let randomItem = ["Lucky Coin", "SpeedPotion"];
 
     let choice = Math.floor(Math.random() * randomItem.length);
 
